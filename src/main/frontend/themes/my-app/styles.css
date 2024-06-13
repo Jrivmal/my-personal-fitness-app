@@ -1,0 +1,18 @@
+@import url('./views/my-personal-fitness-app-view.css');    html {
+      --lumo-success-color: hsl(145, 71%, 36%);
+      --lumo-success-color-50pct: hsla(145, 71%, 36%, 0.5);
+      --lumo-success-color-10pct: hsla(145, 71%, 36%, 0.1);
+      --lumo-primary-text-color: hsl(220, 90%, 52%);
+      --lumo-body-text-color: hsla(214, 59%, 8%, 0.94);
+      --lumo-border-radius-s: 1px;
+      --lumo-border-radius-m: 2px;
+      --lumo-border-radius-l: 4px;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-error-color: hsl(3, 80%, 42%);
+      --lumo-error-color-50pct: hsla(3, 80%, 42%, 0.5);
+      --lumo-error-color-10pct: hsla(3, 80%, 42%, 0.1);
+
+    }
